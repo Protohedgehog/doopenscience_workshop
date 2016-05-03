@@ -1,6 +1,6 @@
 ---
 title: "Do Open Science"
-author: "Dr. Julien Colomb, John Tennant and others"
+author: "Julien Colomb, Jon Tennant, Peter Grabitz, Anna Krystalli"
 
 output: pdf_document
 ---
