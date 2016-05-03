@@ -1,0 +1,17 @@
+# food for thoughts
+
+check the openscienceskills document (another github repo of J colomb)
+
+# Audience
+
+PhD students with no coding skills ?
+
+#Topics
+
+- Version control (git)
+- Collaborate (github)
+
+
+#how
+
+- getting contest (best solution to a problem)
