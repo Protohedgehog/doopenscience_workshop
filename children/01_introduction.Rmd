@@ -6,12 +6,20 @@ check the openscienceskills document (another github repo of J colomb)
 
 PhD students with no coding skills ?
 
+# Timing
+
+Goal is to set the workshop up for end of mai and do it middle of June
+
+
 #Topics
 
-- Version control (git)
-- Collaborate (github)
+1. Version control (git)
+2. Documenting (markdown)
+3. Metadata and standards
 
 
 #how
 
-- getting contest (best solution to a problem)
+- Getting contest (best solution to a problem) via github fork and pull
+- Work with participant private data with one survey before and one servey after the workshop: github to give the data (same standard), R to concatenate it and ggplot2 it!
+- Maybe push it to Figshare ? Data is at the same time the content we work with and the presentation of the results of the workshop.
