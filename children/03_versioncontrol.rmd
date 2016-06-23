@@ -1,0 +1,13 @@
+Introduction
+------------
+
+You would never think of labeling a chemical solution or a sample with a name like "ringer_solution_final_final", but you have probably done that with reports and other documents on your computer. And you ended up with problems, didn't you?
+
+Version control is there to avoid that. The same way as you would record the change of your chemical solution on a piece of paper, you shall record the change of your digital documents in a separate document, writing a comment for each new version about what was changed and why. 
+
+The good news is that you do not need to do that by hand, there is a program to help you with the task, it is called `Git`.
+
+git explanation here:
+http://backlogtool.com/git-guide/en/intro/intro1_1.html
+
+In addition, there is no need to code, you can use github desktop (for example!
