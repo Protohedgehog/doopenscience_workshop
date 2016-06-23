@@ -1,7 +1,7 @@
-Introduction
+Vestion control for one's work
 ------------
 
-You would never think of labeling a chemical solution or a sample with a name like "ringer_solution_final_final", but you have probably done that with reports and other documents on your computer. And you ended up with problems, didn't you?
+You would never think of labeling a chemical solution or a sample with a name like `ringer_solution_final_final`, but you have probably done that with reports and other documents on your computer. And you ended up with problems, didn't you?
 
 Version control is there to avoid that. The same way as you would record the change of your chemical solution on a piece of paper, you shall record the change of your digital documents in a separate document, writing a comment for each new version about what was changed and why. 
 
@@ -10,4 +10,22 @@ The good news is that you do not need to do that by hand, there is a program to 
 git explanation here:
 http://backlogtool.com/git-guide/en/intro/intro1_1.html
 
-In addition, there is no need to code, you can use github desktop (for example!
+In addition, there is no need to code, you can use github desktop (for example)!
+
+
+
+collaboration using Git and Github
+------------
+
+What is great with version control is when you work collaboratively. Let's bring it to test.
+
+- fork the https://github.com/jcolomb/doopenscience_workshop
+- clone it on your PC
+- make a new branch with your name
+- copy the survey/template.csv file and name it with "YOURNAME_before"
+- open the file and enter your answers (use openoffice or libreoffice)
+- save the .csv file: delimiter = "," decimal = ".", encoding = "UTF-8"
+- commit, push
+- make a pull request
+- answer putative questions, make necessary changes,...
+- yeah, you have collaborated!
