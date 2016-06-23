@@ -18,6 +18,7 @@ collaboration using Git and Github
 ------------
 
 What is great with version control is when you work collaboratively. Let's bring it to test.
+source: http://mozillascience.github.io/working-open-workshop/github_for_collaboration/
 
 - fork the https://github.com/jcolomb/doopenscience_workshop
 - clone it on your PC
