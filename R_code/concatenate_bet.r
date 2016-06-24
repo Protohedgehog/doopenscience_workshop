@@ -2,7 +2,10 @@
 
 # get all filenames in the folder survey
 
-filenames = dir("../Survey_data")
+
+Folderdata= ("../Bet_system")
+setwd(Folderdata)
+filenames = dir()
 #filenames
 
 ## read each file present and concatenate using rbind
@@ -12,3 +15,5 @@ for (i in filenames){
   concatenated= rbind(concatenated, N)
 }
 
+require (twitteR)
+install.packages("twitteR")
