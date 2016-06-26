@@ -46,9 +46,10 @@ if (is.null(b[[i]])) {
     
 }else{Twitteraccount =paste0("@",concatenated[i,2])}
 
-print(Twitteraccount )}
+print(Twitteraccount )
+
 text = 
-  paste0(,Twitteraccount, " from ", paste(concatenated[i,3]), " bet at #berlinminiwow that ",  concatenated$winner[i], " will win today.")
+  paste0(Twitteraccount, " from ", paste(concatenated[i,3]), " bet at #berlinminiwow that ",  concatenated$winner[i], " will win today.")
 print(text)  
 if (text != text1){tweet (text)}
 
