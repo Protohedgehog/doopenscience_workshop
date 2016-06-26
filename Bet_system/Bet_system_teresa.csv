@@ -1,2 +1,2 @@
-Name;twitter_account;country of origin;goal_FRA_halftime;goal_IRL_halftime;goal_FRA_fulltime;goal_IRL_fulltime;goal_FRA_extratime;goal_IRL_extratime;goal_FRA_penalty;goal_IRL_penalty
-Teresa;;Poland;1;0;1;2;0;0;0;1
+Name,twitter_account,country of origin,goal_FRA_halftime,goal_IRL_halftime,goal_FRA_fulltime,goal_IRL_fulltime,goal_FRA_extratime,goal_IRL_extratime,goal_FRA_penalty,goal_IRL_penalty
+Teresa,,Poland,1,0,1,2,0,0,0,1
