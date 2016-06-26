@@ -11,7 +11,8 @@ filenames = dir()
 
 ## read each file present and concatenate using rbind
 concatenated= c()
-for (i in filenames){
+for (i in filenames[]){
+    print(i)
   N= read.csv(i, header=T, colClasses = c(rep("character",3), rep( "numeric", 8)))
   concatenated= rbind(concatenated, N)
 }
@@ -32,15 +33,23 @@ setup_twitter_oauth("tk5IRs1bKELnNYCg5EjthIJce",
 
 
 
-i=2
+for (i in c(1: nrow(concatenated))){
+    
 
-b= "notontwitter"
-b=getUser(concatenated[i,2])
-Twitteraccount = ifelse( b== "notontwitter", paste(concatenated[i,1]),paste(concatenated[i,2]))
+# 
+# b= "notontwitter"
+# b=getUser(concatenated[i,2])
+# 
+# if isTRUE( b == "notontwitter"){
+#     Twitteraccount = paste(concatenated[i,1])
+#     
+# }else{Twitteraccount =paste(concatenated[i,2]))}
 
-
+Twitteraccount =paste(concatenated[i,2])
 text = 
   paste0( " @",Twitteraccount, " from ", paste(concatenated[i,3]), " bet at #berlinminiwow that ",  concatenated$winner[i], " will win today.")
   
 
 tweet (text)
+
+}
