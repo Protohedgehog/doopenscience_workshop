@@ -32,24 +32,25 @@ setup_twitter_oauth("tk5IRs1bKELnNYCg5EjthIJce",
                     "PZvUg8EvErqOyyEElrQKaeWjs1TjkDDQ03tpdHl6pv1Jgh8KY5", access_token=NULL, access_secret=NULL)
 
 
-
+text1="noneyeet"
+b=lookupUsers(concatenated[,2],includeNA=TRUE)
 for (i in c(1: nrow(concatenated))){
     
 
 # 
-# b= "notontwitter"
-# b=getUser(concatenated[i,2])
-# 
-# if isTRUE( b == "notontwitter"){
-#     Twitteraccount = paste(concatenated[i,1])
-#     
-# }else{Twitteraccount =paste(concatenated[i,2]))}
 
-Twitteraccount =paste(concatenated[i,2])
+
+
+if (is.null(b[[i]])) {
+    Twitteraccount = paste(concatenated[i,1])
+    
+}else{Twitteraccount =paste0("@",concatenated[i,2])}
+
+print(Twitteraccount )}
 text = 
-  paste0( " @",Twitteraccount, " from ", paste(concatenated[i,3]), " bet at #berlinminiwow that ",  concatenated$winner[i], " will win today.")
-  
+  paste0(,Twitteraccount, " from ", paste(concatenated[i,3]), " bet at #berlinminiwow that ",  concatenated$winner[i], " will win today.")
+print(text)  
+if (text != text1){tweet (text)}
 
-tweet (text)
 
 }
